@@ -6,6 +6,7 @@ ENV APP_NAME centosredissupervisor
 # Install python-related tools
 RUN yum install -y \
      python \
+     openssh-server \
      python-pip \
      python-setuptools \
      supervisor
